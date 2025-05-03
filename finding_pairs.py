@@ -9,3 +9,7 @@ for num1 in range(10, 100):
     while num2 < 100:
         if num1 + num2 == 60 and num1 <= num2:
             print(f"({num1}, {num2})")
+        num2 += 1
+
+if __name__ == "__main__":
+    main()
