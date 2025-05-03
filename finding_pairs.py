@@ -6,3 +6,6 @@ def main():
 
 for num1 in range(10, 100):
     num2 = 10
+    while num2 < 100:
+        if num1 + num2 == 60 and num1 <= num2:
+            print(f"({num1}, {num2})")
