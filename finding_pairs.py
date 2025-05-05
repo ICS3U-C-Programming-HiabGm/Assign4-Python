@@ -33,7 +33,7 @@ def main():
     except Exception:
         print("Please enter a valid input.")
     
-
+printing_pairs()
 
 
 if __name__ == "__main__":
