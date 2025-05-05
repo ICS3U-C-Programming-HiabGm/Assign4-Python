@@ -24,7 +24,11 @@ def main():
             pair2 = 60 - user_input
             if 10 <= pair2 <= 99:
                 print( f"The number that adds up to 60 with {user_input} is {pair2}.")
-            
+            else:
+                print(f"No valid two-digit number adds up to 60 with {user_input}.")
+        else:
+            print("Invalid argument: Please enter a two-digit number between 10 and 99.")
+
         # Catch erroneous input
     except Exception:
         print("Please enter a valid input.")
